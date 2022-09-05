@@ -1,0 +1,346 @@
+
+    .my-proficiency {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .my-picture {
+        align-self: center;
+        justify-self: center;
+        text-align: start;
+        margin-bottom: 1rem;
+    }
+    .about-me {
+        align-self: center;
+        justify-self: center;
+        text-align: center;
+    }
+    .scroll a {
+        padding: 0.7rem 1.5rem;
+        background-color: transparent;
+        color: #fff;
+        border: solid 1px #ffd961;
+        border-radius: 8px;
+        outline: none;
+        background-image: linear-gradient(120deg, transparent 0%, transparent 50%, #ffd961 50%);
+        background-size: 230%;
+        transition: all 1s;
+        text-decoration: none;
+        font-size: 1rem;
+    }
+    .work {
+        display: block;
+        grid-template-columns: repeat(2, 1fr);
+        color: #111;
+        margin: 0 auto;
+        padding: 1rem 1rem;
+        gap: 2rem 0rem;
+    }
+    .work-cover {
+        border: 1px solid rgb(187, 5, 5);
+        text-align: left;
+        padding: 1rem;
+        margin-bottom: 1rem;
+    }
+
+    .container--1 {
+        background-color: transparent;
+        width: 100%;
+        margin: 0 auto;
+        padding: 10px;
+        display: block;
+        grid-gap: 0rem;
+        overflow: hidden;
+    }
+    .box img{
+        width: 100%;
+        height: 100%;
+        display: block;
+        object-fit: cover;
+    }
+    .box-2-work {
+        font-size: 12px !important;
+    }
+    .box {
+        margin-bottom: 2rem;
+    }
+    .box7 {
+        display: none;
+    }
+    .box9 {
+        display: none;
+    }
+    .box12 {
+        display: none;
+    }
+    .box14 {
+        display: none;
+    }
+    .gallery-header {
+        text-align: center;
+        padding: 0rem 0rem;
+        backface-visibility: hidden;
+    }
+    .gallery-header h1 {
+        letter-spacing: 0.5rem;
+        padding-bottom: 1rem;
+        font-size: 1.4rem;
+        font-weight: 700;
+    }
+    .gallery-header h1:hover {
+        transform: skewY(0deg) skewX(0deg) scale(1);
+    }
+    .about-h1 h1:hover {
+        transform: skewY(0deg) skewX(0deg) scale(1);
+    }
+    .contact-me-h1 h1:hover  {
+        transform: skewY(0deg) skewX(0deg) scale(1);
+    }
+    .h1 h1 {
+        background-image: linear-gradient( to bottom, #923332, #ffd961);
+        -webkit-background-clip: text;
+        background-clip: text;
+        color: transparent;
+        letter-spacing: 0.5rem;
+        font-family: 900;
+        font-size: 1.5rem;
+        backface-visibility: hidden;
+    }
+    .h1 {
+        text-align: center;
+        padding-top: 5rem;
+        padding-bottom: 3rem;
+        margin-bottom: -2rem;
+        display: inline-block;
+    }
+    .h1 h1:hover {
+        transform: skewY(0deg) skewX(0deg) scale(1);
+        display: inline-block;
+        transition: all .5s;
+    }
+    .titulo {
+        padding-top: 4rem;
+        background-image: linear-gradient( to top, #923332, #ffd961);
+        -webkit-background-clip: text;
+        background-clip: text;
+        color: transparent;
+        padding-bottom: -2rem;
+        text-align: center;
+        font-size: 1.4rem;
+    }
+    .titulo:hover {
+        transform: skewY(0deg) skewX(0deg) scale(1);
+    }
+    .h1-cover {
+        padding-left: 2.5rem;
+    }
+    .content-4 {
+        width: 100%;
+        padding: 0rem 1rem;
+    }
+    
+    .section-4 {
+        background: #ddd;
+        padding-right: 2rem;
+    }
+    .section-5 .about-h1 {
+        text-align: center;
+        margin-top: 0rem;
+        padding-bottom: 1rem;
+        padding-left: 0rem;
+
+    }
+    .about-h1 h1 {
+        letter-spacing: 0.5rem;
+        background-image: linear-gradient( to bottom, #923332, #ffd961);
+        -webkit-background-clip: text;
+        background-clip: text;
+        color: transparent;
+        font-weight: 700;
+        font-size: 1.4rem;
+    }
+    .about-p {
+        text-align: start;
+        width: auto;
+        padding: 0rem 2rem;
+        max-width: 600px;
+        text-align: start;
+        width: 85%;
+        margin: 0 auto;
+        padding:  0% 5%;
+    }
+    
+    .section-6 {
+        background-color: #ddd;
+        padding-bottom: 2rem;
+        padding-top: 1rem;
+    }
+    .section-6 .contact-me-h1 {
+        text-align: center;
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+        padding-left: 0rem;
+    }
+    .contact-me-h1 h1 {
+        font-size: 1.4rem;
+    }
+    .contact-cover {
+        display: block;
+        grid-gap: 0rem 0rem;
+        margin: auto;
+        max-width: 600px;
+        text-align: start;
+        width: 100%;
+        margin: 0 auto;
+        padding:  0% 4%;
+    }
+    .cover-1 {
+        padding: 0rem 2rem;
+    }
+    .social {
+        display: flex;
+        align-items: center;
+        justify-content: start;
+        height: 100%;   
+    }
+    .whatsapp {
+        display: block;
+    }
+    .social {
+        margin: 1.5rem;
+        margin-left: 2rem;
+    }
+    .social a {
+        margin-left: 0rem;
+        transform: translateY(2rem);
+        text-decoration: none;
+        color: #f4f4f4;
+        padding: .5rem .7rem;
+        background-color: #f4f4f4;
+        color: #923332;
+    }
+    .color {
+        width: 1px;
+        height: 1px;
+    }
+    .color i {
+        position: fixed;
+        right: .9rem;
+        bottom: 0.5rem;
+        background-color: #923332;
+        border-radius: 50%;
+        box-sizing: content-box;
+        text-decoration: none;
+        color: #f4f4f4;
+    }
+    
+    footer {
+        padding: 0.8rem 0rem;
+        text-align: center;
+        color: #000;
+        font-size: 1rem;
+    }
+    * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+    }
+    .navigation {
+        background-color: #f4f4f4;
+        padding-bottom: 0rem;
+        margin: 0rem 0rem 0rem 0rem;
+    }
+    .navigation nav ul {   
+          list-style: none;
+          padding-top: 1.3rem;
+          padding-left: .3rem;
+          max-width: 300px;
+          margin: 0 auto;
+          width: 80%;
+          position: fixed;
+          top: -2rem;
+          left: 2rem;
+          z-index: 1500;
+          opacity: 0;
+          transition: all .1s ease-out; 
+    }
+    .navigation nav ul li  {
+          display: inline-block;
+          padding-top: .5rem;
+    }
+    .navigation nav ul li a:hover {
+          background-position: 100%;
+          color: #f4f4f4;
+          transition: all .5s ease-in-out;
+    }
+    .navigation nav ul li a {
+    
+          font-size: 13px;
+        text-decoration: none;
+        padding: 0rem .1rem;
+        padding-top: 2rem;
+        padding-bottom: .5rem;
+        color: #000;
+        background-image: linear-gradient(120deg, transparent 0%, transparent 50%, #923332 50%);
+        background-size: 310%;
+        transition: all .5s;
+    
+    }
+    .mylogo {
+        position: absolute;
+        top: .5rem;
+        left: 1rem;
+        z-index: 2000;
+        width: 12%;
+    }
+    .mylogo img {
+        width: 100%;
+    }  
+    
+    .background {
+          height: 2.4rem;
+          width: 2.4rem;
+          border-radius: 8%;
+          background-image: radial-gradient(#fff, #999);
+          position: fixed;
+          right: .5rem;
+          top: .2rem;
+          z-index: 1000;
+          transition: all .5s ease-out;
+          transform: scaleY(0);
+    }
+    .checkme:checked ~ nav ul {
+          opacity: 1;
+          width: 100%;
+    }
+    .button {
+          height: 2.4rem;
+          width: 2.4rem;
+          border-radius: 20%;
+          background-color: transparent;
+          position: fixed;
+          right: .5rem;
+          top: .2rem;
+          z-index: 2000;
+          box-shadow: 0rem 0.1rem 0.9rem #999;
+          cursor: pointer;
+          text-align: center;
+    }
+    
+    .button:hover .span-me::before{
+          top: -.6rem;
+    }
+    .button:hover .span-me::after{
+          top: .6rem;
+    }
+    .span-me {
+          height: 0.2rem;
+          width: 1.4rem;
+          display: inline-block;
+          background-color:  #ffd961;
+          position: relative;
+          margin-top: 1.1rem;
+          transition: transparent .2s ease-in-out;
+    }
+    .checkme:checked ~ .background {
+          transform: scaleX(100) scaleY(1.2);
+    }
