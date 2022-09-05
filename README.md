@@ -20,7 +20,7 @@ This is a my Portfolio website
 
 ### Links
 
-- Live Site URL:(https://clipboard-peter-bit.netlify.app/)
+- Live Site URL:(https://peterforyou.github.io/my-portfolio/)
 
 ### Built with
 
