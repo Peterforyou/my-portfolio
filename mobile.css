@@ -321,7 +321,7 @@
           right: .5rem;
           top: .2rem;
           z-index: 2000;
-          box-shadow: 0rem 0.1rem 0.9rem #999;
+          box-shadow: 0rem 0.1rem 0.5rem #000;
           cursor: pointer;
           text-align: center;
     }
