@@ -344,3 +344,10 @@
     .checkme:checked ~ .background {
           transform: scaleX(100) scaleY(1.2);
     }
+    .overlay a {
+        text-decoration: none;
+        color: #000;
+        padding: .2rem 1rem;
+        background-color: #ffd961;
+        font-size: .8rem;
+    }

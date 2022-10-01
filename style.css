@@ -1,5 +1,9 @@
+html {
+    /* overflow-x: hidden; */
+}
 body {
     font-family: 'Lato', sans-serif;
+    /* overflow-x: hidden; */
 }
 .section-2 {
     background-color: #6b212b;
@@ -183,13 +187,14 @@ body {
 }
 .overlay h2 {
     position: absolute;
-    top: 50%;
+    top: 30%;
     left: 50%;
     transform: translate(-50%, -50%);
     font-size: 1rem;
     font-weight: 900;
     text-align: center;
     color: #fff;
+    text-transform: uppercase;
 }
 .overlay h3 {
     position: absolute;
@@ -203,7 +208,12 @@ body {
 }
 .overlay a {
     text-decoration: none;
-    color: #ffd961;
+    color: #000;
+    padding: .5rem 2rem;
+    background-color: #ffd961;
+}
+.overlay a:hover {
+    opacity: .7;
 }
 .overlay h4 {
     position: absolute;
