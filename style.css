@@ -740,16 +740,7 @@ footer p {
         color: #923332;
 
     }
-    /* .color i {
-        text-align: end;
-        padding: .5rem .7rem;
-        background-color: #923332;
-        border-radius: 50%;
-        transform: translateY(2.7rem);
-        margin-right: -1rem;
-        text-decoration: none;
-        color: #f4f4f4;
-    } */
+  
     .navigation nav ul {   
         top: -2% !important;
         left: 18% !important;
