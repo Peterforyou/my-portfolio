@@ -553,6 +553,25 @@ footer p {
     padding: 0;
     margin: 0;
 }
+.my-cv {
+    position: absolute;
+    left: 75%;
+    top: 1rem;
+    z-index: 12;
+}
+.my-cv a {
+    text-decoration: none;
+    font-size: 1.4rem;
+    color: #fff;
+    background-color: #ffd961;
+    border: none;
+    padding: .5rem 2rem;
+    color: #000;
+    border-radius: .4rem;
+}
+.my-cv a:hover {
+    opacity: .6;
+}
 .navigation {
     background-color: #f4f4f4;
     padding-bottom: 0rem;
@@ -560,24 +579,11 @@ footer p {
 .checkme {
     display: none;
 }
-.background {
-    height: 3rem;
-    width: 3rem;
-    border-radius: 8%;
-    background-image: radial-gradient(#fff, #999);
-    position: fixed;
-    right: 5rem;
-    top: .3rem;
-    z-index: 1000;
-    transition: all .5s ease-out;
-    transform: scaleY(0);
-}
-.checkme:checked ~ .background {
-    transform: scaleX(100) scaleY(1.2);
-}
+
 .checkme:checked ~ nav ul {
-    opacity: 1;
-    width: 100%;
+    transition: all .4s;
+    right: 0;
+  
 }
 .button {
     height: 3rem;
@@ -641,24 +647,28 @@ footer p {
     transform: rotate(135deg);
     top: 0rem;
 }
-
-.navigation nav ul {   
+.navigation nav ul {
+    display: block;
     list-style: none;
-    padding-top: 1.3rem;
-    padding-left: 1rem;
-    max-width: 500px;
-    margin: 0 auto;
+    height: 50rem;
+    width: 30%;
     position: fixed;
-    left: 40%;
-    top: -3%;
-    z-index: 1500;
-    opacity: 0;
-    transition: all .1s ease-out; 
- 
+    background-color: #999;
+    top: 0%;
+    right: 100%;
+    padding-top: 6rem;
+    transition: all .4s;
+    overflow: hidden;
+    z-index: 10;
+    text-align: center;
+    padding-right: 2rem;
 }
+
+
 .navigation nav ul li  {
-    display: inline-block;
+    display: block;
     padding-top: .5rem;
+    line-height: 4rem;
 }
 .navigation nav ul li a:hover {
     background-position: 100%;
@@ -666,17 +676,14 @@ footer p {
     transition: all .5s ease-in-out;
 }
 .navigation nav ul li a {
-
+    text-transform: uppercase;
     font-size: 22px;
-  text-decoration: none;
-  padding: 0rem .5rem;
-  padding-top: 2rem;
-  padding-bottom: .9rem;
-  color: #000;
-  background-image: linear-gradient(120deg, transparent 0%, transparent 50%, #923332 50%);
-  background-size: 280%;
-  transition: all .5s;
-
+    text-decoration: none;
+    padding: 1rem;
+    color: #000;
+    background-image: linear-gradient(120deg, transparent 0%, transparent 50%, #923332 50%);
+    background-size: 280%;
+    transition: all .5s;
 }
 .mylogo {
   position: absolute;
@@ -692,7 +699,7 @@ footer p {
 }  
 
 
-    @media screen and (max-width: 1024px) {
+@media screen and (max-width: 1024px) {
 
     .social {
         display: flex;
@@ -711,20 +718,7 @@ footer p {
         color: #923332;
 
     }
-    /* .color i {
-        text-align: end;
-        padding: .5rem .7rem;
-        background-color: #923332;
-        border-radius: 50%;
-        transform: translateY(2.7rem);
-        text-decoration: none;
-        color: #f4f4f4;
-    } */
-    .navigation nav ul {
-        top: -3% ;
-        left: 25%;
-    }
-    }
+}
 
 @media screen and (max-width: 821px) {
     .whatsapp {
@@ -740,42 +734,9 @@ footer p {
         color: #923332;
 
     }
-  
-    .navigation nav ul {   
-        top: -2% !important;
-        left: 18% !important;
-    }
-    .navigation nav ul li a {
-        padding-bottom: .5rem;
-    }
 }
 
 @media screen and (max-width: 914px) and (min-width: 901px)  {
-    .navigation nav ul {   
-        list-style: none;
-        padding-top: 1.3rem;
-        padding-left: 1rem;
-        max-width: 500px;
-        margin: 0 auto;
-        position: fixed;
-        left: 30%;
-        top: -1%;
-        z-index: 1500;
-        opacity: 0;
-        transition: all .1s ease-out; 
-    }
-    .navigation nav ul li a {
-
-        font-size: 22px;
-      text-decoration: none;
-      padding: 0rem .5rem;
-      padding-top: 2rem;
-      padding-bottom: .5rem;
-      color: #000;
-      background-image: linear-gradient(120deg, transparent 0%, transparent 50%, orangered 50%);
-      background-size: 280%;
-      transition: all .5s;
-    }
     .work {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
@@ -798,35 +759,5 @@ footer p {
         margin: 0 auto;
         padding: 1rem 0rem;
         grid-gap: 1rem 2rem;
-    }
-    .navigation nav ul {   
-        list-style: none;
-        padding-top: 1.3rem;
-        padding-left: 1rem;
-        max-width: 500px;
-        margin: 0 auto;
-        position: fixed;
-        left: 20%;
-        top: -2%;
-        z-index: 1500;
-        opacity: 0;
-        transition: all .1s ease-out; 
-    }
-    .navigation nav ul li a {
-        padding-bottom: .5rem;
-    }
-
-}
-@media screen and (max-width: 770px) and (min-width: 601px) {
-    .navigation nav ul {   
-        list-style: none;
-        padding-top: 1.3rem;
-        padding-left: 0rem;
-        left: 20% !important;
-        top: -2% !important;
-    }
-    .navigation nav ul li a {
-        padding-bottom: .8rem;
-        font-size: 14px;
     }
 }
