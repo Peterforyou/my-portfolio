@@ -1,10 +1,15 @@
 html {
-    /* overflow-x: hidden; */
+    overflow-x: hidden;
 }
 body {
     font-family: 'Lato', sans-serif;
-    /* overflow-x: hidden; */
+    overflow-x: hidden;
 }
+/* .dark-mode {
+    background-color: #111;
+    color: #fff;
+} */
+
 .section-2 {
     background-color: #6b212b;
     
@@ -285,8 +290,30 @@ body {
     grid-column: 7/10;
     position: relative;
 }
+.all-projects-cover {
+    position: relative;
+}
+.all-projects {
+    position: absolute;
+    right: 7rem;
+    top: 1rem;
+    text-decoration: none;
+    color: #000;
+    border-bottom: 2px solid #923332;
+    font-size: 1.5rem;
+    transition: all .5s;
+}
+.all-projects:hover {
+    background: #923332;
+    border: none;
+    color: #fff;
+    padding: .5rem 1rem;
+    border-radius: .6rem;
+    transition: all .5s;
+}
 .section-4 {
 	background: #ddd;
+    padding-top: 3rem;
 }
 .h1-cover {
     text-align: start;
@@ -549,11 +576,12 @@ footer {
 footer p {
     margin-bottom: 0;
 }
+
 * {
     padding: 0;
     margin: 0;
 }
-.my-cv {
+/* .my-cv {
     position: absolute;
     left: 75%;
     top: 1rem;
@@ -561,16 +589,36 @@ footer p {
 }
 .my-cv a {
     text-decoration: none;
-    font-size: 1.4rem;
+    font-size: 1.1rem;
     color: #fff;
     background-color: #ffd961;
     border: none;
-    padding: .5rem 2rem;
+    padding: .3rem 1.2rem;
     color: #000;
     border-radius: .4rem;
 }
 .my-cv a:hover {
     opacity: .6;
+} */
+
+.theme .theme-bg {
+    position: absolute;
+    top: 1.3rem;
+    right: 10rem;
+    background-color: transparent;
+    display: block;
+    padding: .5rem 1.3rem;
+    z-index: 120;
+    border: 1px solid yellow;
+}
+.theme .theme-bg .toggler {
+    position: absolute;
+    left: .3rem;
+    top: .3rem;
+    display: block;
+    width: .5rem;
+    height: .5rem;
+    background-color: #111;
 }
 .navigation {
     background-color: #f4f4f4;
@@ -579,11 +627,12 @@ footer p {
 .checkme {
     display: none;
 }
-
 .checkme:checked ~ nav ul {
     transition: all .4s;
-    right: 0;
-  
+    right: 0;  
+}
+.checkme:checked ~ .theme .theme-bg {
+    border: 1px solid #923332;
 }
 .button {
     height: 3rem;
@@ -603,7 +652,7 @@ footer p {
     height: 0.2rem;
     width: 1.4rem;
     display: inline-block;
-    background-color:  #ffd961;
+    background-color: #ffd961;
     position: relative;
     margin-top: 1.3rem;
     transition: transparent .2s ease-in-out;
@@ -653,7 +702,7 @@ footer p {
     height: 50rem;
     width: 30%;
     position: fixed;
-    background-color: #999;
+    background-color: #ddd;
     top: 0%;
     right: 100%;
     padding-top: 6rem;
@@ -662,9 +711,12 @@ footer p {
     z-index: 10;
     text-align: center;
     padding-right: 2rem;
+    border: 1px solid #999;
 }
-
-
+.menu-number {
+    color: #999;
+    font-size: 1rem;
+}
 .navigation nav ul li  {
     display: block;
     padding-top: .5rem;
@@ -684,6 +736,7 @@ footer p {
     background-image: linear-gradient(120deg, transparent 0%, transparent 50%, #923332 50%);
     background-size: 280%;
     transition: all .5s;
+    
 }
 .mylogo {
   position: absolute;
@@ -733,6 +786,21 @@ footer p {
         background-color: #f4f4f4;
         color: #923332;
 
+    }
+    .my-cv {
+        position: absolute;
+        left: 60%;
+        top: 1rem;
+        z-index: 12;
+    }
+    .my-cv a {
+        font-size: 1.2rem;
+        padding: .5rem 1rem;
+        color: #000;
+        border-radius: .4rem;
+    }
+    .navigation nav ul {
+        width: 50%;
     }
 }
 

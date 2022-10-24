@@ -244,22 +244,22 @@
         margin: 0;
         box-sizing: border-box;
     }
-    .my-cv {
+    /* .my-cv {
         position: absolute;
         left: 44%;
-        top: 1rem;
+        top: .7rem;
         z-index: 12;
     }
     .my-cv a {
         text-decoration: none;
-        font-size: 1rem;
+        font-size: .7rem;
         color: #fff;
         background-color: #ffd961;
         border: none;
-        padding: .5rem 1rem;
+        padding: .3rem .7rem;
         color: #000;
-        border-radius: .4rem;
-    }
+        border-radius: .2rem;
+    } */
     .navigation {
         background-color: #f4f4f4;
         padding-bottom: 0rem;
@@ -267,6 +267,13 @@
     }
     .navigation nav ul {   
           width: 60%;
+    }
+    .navigation nav ul li a {
+        font-size: 1.1rem;
+        border-bottom: none;
+    }
+    .navigation nav ul li a span {
+        font-size: .7rem;
     }
     .mylogo {
         position: absolute;
@@ -313,4 +320,23 @@
         padding: .2rem 1rem;
         background-color: #ffd961;
         font-size: .8rem;
+    }
+    .all-projects {
+        position: absolute;
+        right: 1rem;
+        top: -1rem;
+        text-decoration: none;
+        color: #000;
+        border-bottom: 2px solid #923332;
+        font-size: 1rem;
+    }
+    .theme .theme-bg {
+        position: absolute;
+        top: 1rem;
+        right: 5rem;
+        background-color: transparent;
+        display: block;
+        padding: .5rem 1.3rem;
+        z-index: 12;
+        border: 1px solid yellow;
     }
