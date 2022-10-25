@@ -330,13 +330,10 @@
         border-bottom: 2px solid #923332;
         font-size: 1rem;
     }
-    .theme .theme-bg {
+    .theme {
         position: absolute;
+        right: 7rem;
         top: 1rem;
-        right: 5rem;
-        background-color: transparent;
-        display: block;
-        padding: .5rem 1.3rem;
-        z-index: 12;
-        border: 1px solid yellow;
-    }
+        z-index: 100;
+      }
+
