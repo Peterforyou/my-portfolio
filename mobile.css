@@ -333,7 +333,7 @@
     .theme {
         position: absolute;
         right: 7rem;
-        top: 1rem;
+        top: .5rem;
         z-index: 100;
       }
 

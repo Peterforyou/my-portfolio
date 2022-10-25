@@ -8,7 +8,7 @@ body {
   .theme {
     position: absolute;
     right: 13rem;
-    top: 1rem;
+    top: .5rem;
     z-index: 100;
   }
   .checkbox {
