@@ -19,14 +19,15 @@ body {
   .label {
     width: 50px;
     height: 26px;
-    background-color:#111;
+    background-color:transparent;
     display: flex;
     border-radius:50px;
     align-items: center;
     justify-content: space-between;
     padding: 5px;
     position: relative;
-    transform: scale(1.5);
+    transform: scale(1);
+    border: 2px solid #999;
   }
   
   .ball {
@@ -44,11 +45,11 @@ body {
   }
   
   .fa-moon {
-    color: pink;
+    color: #f4f4f4;
   }
   
   .fa-sun {
-    color: yellow;
+    color: #ffd961;
   }
 
 
@@ -447,7 +448,9 @@ body {
     color:#000;
 	top:-28px;
 }
-
+.skill li em.dark {
+    color: #fff;
+}
 .blueline { 
 	height: 3px; 
 	margin: 2px 0; 
@@ -764,7 +767,7 @@ footer p.dark {
     border: 1px solid #999;
 }
 .navigation nav ul.dark {
-    background-color: #222;
+    background-color: #111;
 }
 .menu-number {
     color: #999;

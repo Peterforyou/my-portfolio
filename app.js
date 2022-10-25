@@ -15,6 +15,7 @@ let message = document.querySelector('.message');
 let allProjects = document.querySelector('.all-projects');
 let nav = document.querySelector('.navigation nav ul');
 let navChild = document.querySelectorAll('.navigation nav ul li a');
+let skillLevel = document.querySelectorAll('.skill li em');
 let toggler = document.querySelector('.toggler');
 const checkbox = document.getElementById('checkbox');
 
@@ -39,5 +40,8 @@ checkbox.addEventListener('change', ()=>{
   
   for (let i = 0; i < imgWork.length; i++) {
         imgWork[i].classList.toggle('dark');
+  }
+  for (let i = 0; i < skillLevel.length; i++) {
+        skillLevel[i].classList.toggle('dark');
   }
 })
